@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FATIHSTORE69 - Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                        url('https://files.catbox.moe/8ose3h.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+        
+        /* Profile Section */
+        .profile {
+            margin-bottom: 30px;
+        }
+        
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            object-fit: cover;
+            margin: 0 auto 15px;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+        }
+        
+        .profile-name {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 5px;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+        }
+        
+        .profile-username {
+            font-size: 1rem;
+            opacity: 0.9;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+        
+        .profile-bio {
+            font-size: 1rem;
+            line-height: 1.5;
+            max-width: 90%;
+            margin: 0 auto 25px;
+            padding: 0 10px;
+        }
+        
+        /* Links Section */
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .link-item {
+            background-color: rgba(255, 255, 255, 0.1);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50px;
+            padding: 15px 25px;
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        
+        .link-item:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            border-color: rgba(255, 255, 255, 0.5);
+        }
+        
+        .link-item i {
+            font-size: 1.2rem;
+        }
+        
+        /* Social Media Section */
+        .social-media {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 25px;
+        }
+        
+        .social-icon {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+        
+        .social-icon:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            transform: scale(1.1);
+        }
+        
+        /* Footer */
+        .footer {
+            margin-top: 30px;
+            font-size: 0.9rem;
+            opacity: 0.7;
+        }
+        
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .profile, .links, .social-media, .footer {
+            animation: fadeIn 0.8s ease forwards;
+        }
+        
+        .links .link-item:nth-child(1) { animation-delay: 0.2s; }
+        .links .link-item:nth-child(2) { animation-delay: 0.4s; }
+        .social-media { animation-delay: 0.6s; }
+        .footer { animation-delay: 0.8s; }
+        
+        /* Responsive Design */
+        @media (max-width: 480px) {
+            .profile-name {
+                font-size: 2rem;
+            }
+            
+            .profile-img {
+                width: 130px;
+                height: 130px;
+            }
+            
+            .link-item {
+                padding: 13px 20px;
+                font-size: 0.95rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <!-- Foto profil diambil dari file yang sama -->
+            <img src="https://files.catbox.moe/8ose3h.jpg" alt="FATSTORE69" class="profile-img">
+            <h1 class="profile-name">FATIHSTORE69</h1>
+            <p class="profile-username">@FATIHSTORE_69</p>
+            <p class="profile-bio">Contact WhatsApp: 089692070017<br>Official Instagram: @fatihje01</p>
+        </div>
+        
+        <div class="links">
+            <a href="https://wa.me/6289692070017" class="link-item" target="_blank">
+                <i class="fab fa-whatsapp"></i> NOPE JB FATIH
+            </a>
+                                <div class="links">
+            <a href="https://wa.me/6283170048060" class="link-item" target="_blank">
+                <i class="fab fa-whatsapp"></i> NOPE PRIBADI FATIH
+            </a>
+                    <div class="links">
+            <a href="https://chat.whatsapp.com/CsRT1nrZwrR0mnIwLb7k7y" class="link-item" target="_blank">
+                <i class="fab fa-whatsapp"></i> STOK¹ FATIHSTORE69
+            </a>
+                    <div class="links">
+            <a href="https://chat.whatsapp.com/KuxEYj74lYAIeURC167Y1S" class="link-item" target="_blank">
+                <i class="fab fa-whatsapp"></i> JB¹ FATSTORE69 NEW
+            </a>
+            <a href="https://www.instagram.com/fatihje01?igsh=MXQyc3UwNTBtY3R1eQ==" class="link-item" target="_blank">
+                <i class="fab fa-instagram"></i> IG FATIHSTORE69
+            </a>
+        </div>
+        
+        <div class="social-media">
+            <a href="https://wa.me/6289692070017" class="social-icon" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://www.instagram.com/fatihje01?igsh=MXQyc3UwNTBtY3R1eQ==" class="social-icon" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+        
+        <div class="footer">
+            <p>© 2023 FATIHSTORE69. All rights reserved.</p>
+        </div>
+    </div>
+
+    <script>
+        // Menambahkan efek animasi saat halaman dimuat
+        document.addEventListener('DOMContentLoaded', function() {
+            // Set opacity awal ke 0 untuk semua elemen dengan animasi
+            const animatedElements = document.querySelectorAll('.profile, .links, .social-media, .footer');
+            animatedElements.forEach(el => {
+                el.style.opacity = '0';
+            });
+            
+            // Trigger animasi setelah halaman dimuat
+            setTimeout(() => {
+                animatedElements.forEach(el => {
+                    el.style.animationPlayState = 'running';
+                });
+            }, 100);
+        });
+    </script>
+</body>
+</html>
